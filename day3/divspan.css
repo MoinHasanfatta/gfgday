@@ -1,0 +1,15 @@
+*{
+    background: gray
+}
+
+div{
+    background: darkgreen;
+    height: 100px;
+    color: azure;
+    width: 50%;
+}
+
+span{
+    background: yellow;
+    height: 200px;
+}

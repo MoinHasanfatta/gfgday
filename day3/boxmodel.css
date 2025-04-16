@@ -1,0 +1,29 @@
+body{
+    background: lightpink;
+    
+}
+
+h1{
+    background: darkmagenta;
+    color: beige;
+    margin: 50px;
+    padding: 30px;
+    border: 10px double yellow;
+    border-radius: 40px;
+  
+}
+p{
+    background: black;
+    color: darkorchid;
+    height: 50px;
+    padding-left: 30px;
+    cursor: pointer;
+    transition:6s;
+    
+}
+p:hover{
+    font-size: 40px;
+    background: lightyellow;
+    color: darkblue;
+    margin-left: 60px;
+}

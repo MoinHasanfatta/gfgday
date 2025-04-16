@@ -1,0 +1,29 @@
+*{
+    background: lightskyblue;
+}
+
+div ~ p {
+    background: red;
+}
+
+input[type="text"]{
+    width: 400px;
+    background: yellow;
+    font-size: 22px;
+}
+
+/* h1,h2,#a{
+    background: red;
+} */
+h2::first-line{
+    background: blue;
+}
+
+h1::before{
+    content: "🍎";
+    
+}
+
+h1::after{
+    content: "!";
+}
