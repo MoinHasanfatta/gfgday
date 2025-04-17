@@ -1,0 +1,35 @@
+
+.z{
+    display: none;
+}
+
+@media (min-width : 0px) and (max-width : 400px){
+    body{
+        background: darkblue;
+        color: yellow;
+        #a{
+            display: block;
+        }
+    }
+}
+
+
+@media (min-width : 401px) and (max-width : 800px){
+    body{
+        background: darkgreen;
+        color: white;
+    }
+    #b{
+        display: block;
+    }
+}
+
+@media (min-width : 801px) {
+    body{
+        background: red;
+    }
+    #c{
+        display: block;
+    }
+}
+

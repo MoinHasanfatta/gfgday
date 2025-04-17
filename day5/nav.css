@@ -1,0 +1,24 @@
+body{
+    background: lightslategrey;
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+    background: darkolivegreen;
+    color : white;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+}
+
+.drop{
+    position: absolute;
+    display: none;
+}
+
+li:hover ul.drop{
+    display: block;
+}

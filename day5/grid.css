@@ -1,0 +1,25 @@
+body{
+    background: lightskyblue;
+    color: beige;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr);
+    gap: 50px;
+}
+
+.grid{
+    background: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+#two{
+    grid-row: span 3;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
